@@ -1,4 +1,4 @@
-// Yeah, yeah. I know...
+// Yeah, yeah.
 
 for( let i = 1; i <= 100; i++){
     let output = "";
