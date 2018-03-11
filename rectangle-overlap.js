@@ -62,8 +62,6 @@ function draw(){
 
     fill(255);
     textSize(32);
-    //text("W: "+abs(rect1.final.x - rect1.initial.x)+" H: "+abs(rect1.final.y - rect1.initial.y)+" A: "+abs((rect1.final.x - rect1.initial.x)*(rect1.final.y - rect1.initial.y)), 10, 10, width - 10, 50);
-    //text("W: "+abs(rect2.final.x - rect2.initial.x)+" H: "+abs(rect2.final.y - rect2.initial.y)+" A: "+abs((rect2.final.x - rect2.initial.x)*(rect2.final.y - rect2.initial.y)), 10, 60, width - 10, 50);
     text("W: "+abs(rectOverlap.final.x - rectOverlap.initial.x)+" H: "+abs(rectOverlap.final.y - rectOverlap.initial.y)+" A: "+abs((rectOverlap.final.x - rectOverlap.initial.x)*(rectOverlap.final.y - rectOverlap.initial.y)), 10, 10, width - 10, 50);
     
     noStroke();
@@ -83,5 +81,4 @@ function draw(){
     fill("yellow");
     ellipse(rect1.final.x, rect1.final.y, 10, 10);
     ellipse(rect2.final.x, rect2.final.y, 10, 10);
-
 }
